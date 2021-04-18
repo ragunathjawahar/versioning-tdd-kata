@@ -15,7 +15,7 @@ Your team does not distribute internal releases to customers, and they have the 
 
 `[YYYY]` and `[published-artifact-count]` is the same as in public releases. `[build-number]` is the number of internal releases made after the last public release and starts from `1` after every public release.
 
-For example, the first internal release for 2021 without any public releases would be `2021.0.1`; the second internal release would be `2021.0.1` and so on. Each internal release will increment its `[build-number]` by `1`.
+For example, the first internal release for 2021 without any public releases would be `2021.0.1`; the second internal release would be `2021.0.2` and so on. Each internal release will increment its `[build-number]` by `1`.
 
 ## Releases summary
 In general, public releases drop the `[build-number]` from internal releases and increment the `[published-artifact-count]` by `1`
